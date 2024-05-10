@@ -1,7 +1,29 @@
 # RNA-Sequencing-Loss-Estimator
 Program estimating how much gene information has been lost in a RNA sequenced dataset
+<br>
+<br>
+<br>
+## Background
+RNA single-cell sequencing is a transformative technology that significantly enhances our understanding of cellular functions and genetic diversity on a microscopic level. However, during the sequencing process, a portion of genetic information is inevitably lost.
 
-# Model Estimate Results
+To understand why genetic information is lost, it's essential to comprehend the role of Unique Molecular Identifiers (UMIs). UMIs are critical for labeling individual RNA molecules, enabling the precise tracking and quantification of genetic expression in cells. Despite this, sequencing machines face limitations, resulting in not all UMIs being captured. To mitigate this, UMIs are amplified extensively, enhancing the likelihood of detection. Nevertheless, this amplification leads to disparities where some UMIs have multiple detected copies, while others are not detected at all. This discrepancy is evident in the following graph, where 0-counts indicate UMIs that went unsequenced:
+<br>
+<img src="https://github.com/taeyon998/RNA-Sequencing-Loss-Estimator/blob/main/images/UMI%20counts.png">
+<br>
+Addressing these 0-counts is crucial. A high proportion of 0-counts suggests significant loss of original genetic information, indicating a need for deeper sequencing to achieve comprehensive data coverage. Conversely, a low proportion of 0-counts implies that the sequencing has effectively captured the majority of genetic information. My objective is to employ statistical distributions to accurately estimate these unaccounted 0-counts, thereby refining our understanding of "RNA sequencing loss."
+
+The importance of resolving this issue cannot be overstated. By accurately estimating 0-counts, my tool aims to significantly enhance the reliability and completeness of RNA single-cell sequencing data, benefiting researchers and advancing the field.
+<br>
+<br>
+<br>
+
+## Workflow
+<img src=https://github.com/taeyon998/RNA-Sequencing-Loss-Estimator/blob/main/images/workflow.jpg">
+<br>
+<br>
+<br>
+
+## Model Estimate Results
 
 |        |        |
 | ------ | ------ |
