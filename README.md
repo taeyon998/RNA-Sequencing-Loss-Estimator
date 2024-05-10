@@ -1,5 +1,5 @@
 # RNA-Sequencing-Loss-Estimator
-###Estimate how much gene information has been lost in a single cell RNA sequenced dataset
+### Estimate how much gene information has been lost in a single cell RNA sequenced dataset
 <br>
 <br>
 <br>
@@ -19,7 +19,6 @@ The importance of resolving this issue cannot be overstated. By accurately estim
 <br>
 <br>
 
-## Workflow
 <img src="https://github.com/taeyon998/RNA-Sequencing-Loss-Estimator/blob/main/images/workflow.jpg">
 <br>
 <br>
