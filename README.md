@@ -1,7 +1,6 @@
 # RNA-Sequencing-Loss-Estimator
+<div align=center>
 ### Estimate how much gene information has been lost in a single cell RNA sequenced dataset
-<br>
-<br>
 <br>
 
 ## Background
