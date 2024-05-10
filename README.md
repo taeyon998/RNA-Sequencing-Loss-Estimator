@@ -3,6 +3,7 @@
 <br>
 <br>
 <br>
+
 ## Background
 RNA single-cell sequencing is a transformative technology that significantly enhances our understanding of cellular functions and genetic diversity on a microscopic level. However, during the sequencing process, a portion of genetic information is inevitably lost.
 
@@ -19,7 +20,8 @@ The importance of resolving this issue cannot be overstated. By accurately estim
 <br>
 <br>
 
-<img src="https://github.com/taeyon998/RNA-Sequencing-Loss-Estimator/blob/main/images/workflow.jpg">
+## Workflow
+<img src="https://github.com/taeyon998/RNA-Sequencing-Loss-Estimator/blob/main/images/workflow.png">
 <br>
 <br>
 <br>
